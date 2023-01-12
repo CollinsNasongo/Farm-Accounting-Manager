@@ -1,5 +1,5 @@
 """
-WSGI config for accountant project.
+WSGI config for farm_accountant project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'accountant.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'farm_accountant.settings')
 
 application = get_wsgi_application()
