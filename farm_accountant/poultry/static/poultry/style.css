@@ -29,13 +29,12 @@ nav a{
   text-decoration: none;
 }
 
-.links ul{
-  list-style: none;
+.links {
   display: flex;
   flex-direction: row;
 }
 
-.links ul li{
+.links a{
   display: block;
   border-radius: 10px;
   margin: 10px;
