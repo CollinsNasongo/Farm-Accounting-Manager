@@ -44,7 +44,7 @@ nav a{
   background-color: #cde9d6;
 }
 
-.btn:hover {
+.active, .btn:hover {
   border: solid 2px #122981;
 }
 
