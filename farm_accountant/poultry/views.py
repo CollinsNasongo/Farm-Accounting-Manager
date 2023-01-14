@@ -4,13 +4,13 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return render(request, 'poultry/home.html')
+    return render(request, 'poultry/home.html', {'title': 'Home'})
 
 def journal(request):
-    return render(request, 'poultry/journal.html')
+    return render(request, 'poultry/journal.html', {'title': 'Journal'})
 
 def analytics(request):
-    return render(request, 'poultry/analytics.html')
+    return render(request, 'poultry/analytics.html', {'title': 'Analytics'})
 
 def about(request):
-    return render(request, 'poultry/about.html')
+    return render(request, 'poultry/about.html', {'title': 'About'})
