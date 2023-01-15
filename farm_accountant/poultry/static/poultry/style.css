@@ -5,7 +5,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  overflow-x: hidden;
   padding-top: 100px;
   background-color:#101820FF;
 }
@@ -17,11 +16,11 @@ nav {
   align-items: baseline;
   width: 100%;
   height: auto;
-  border-bottom: solid 1px  #FEE715FF;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #101820FF;
+  border-bottom: solid 1px #FEE715FF;
 }
 
 nav a{
@@ -58,4 +57,46 @@ nav a{
   display: block;
 }
 
-.gallery {}
+.home_page {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+
+.gallery {
+  width: 50%;
+  height: 69vh;
+  margin: 20px;
+  border: solid 1px #2CAE66;
+  border-radius: 15px;
+}
+
+.intro {
+  width: 50%;
+  height: 69vh;
+  margin: 20px;
+}
+
+.intro h1{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.intro h1, p {
+  color: #2CAE66;
+}
+
+.intro span{
+  color: #FFFFFF;
+}
+
+.intro p{
+  text-align: center;
+}
+
+.info {
+  margin-top: 25%;
+}
