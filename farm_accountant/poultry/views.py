@@ -11,6 +11,3 @@ def journal(request):
 
 def analytics(request):
     return render(request, 'poultry/analytics.html', {'title': 'Analytics'})
-
-def about(request):
-    return render(request, 'poultry/about.html', {'title': 'About'})

@@ -7,57 +7,49 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding-top: 100px;
-  background-color: #F7F9FB;
+  background-color:#101820FF;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   height: auto;
-  border-bottom: solid 2px #96C2DB;
+  border-bottom: solid 1px  #FEE715FF;
   position: fixed;
-  z-index: 9999;
   top: 0;
   left: 0;
-  background-color: #F7F9FB;
+  background-color: #101820FF;
 }
 
 nav a{
   text-decoration: none;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-}
-
-.links a{
-  display: block;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 16px 20px;
-  font-weight: bolder;
-  background-color: #cde9d6;
-}
-
-.active, .btn:hover {
-  border: solid 2px #122981;
-}
-
-.links a{
-  color: #122981;
+  margin-right: 20px;
 }
 
 .logo p{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-  padding: 5px;
+  padding: 1px;
   display: block;
   font-family: 'Lobster', cursive;
-  color: #CB2D6F;
+  color:  #9b111e;
+  /*The green I want - #2CAE66 */
+}
+
+
+.links .active {
+  color: #FFFFFF;
+}
+
+.links a:hover{
+  color: #FFFFFF;
+}
+
+.links a{
+  color: #FEE715FF;
 }
 
 .main_content {
@@ -65,3 +57,5 @@ nav a{
   height: auto;
   display: block;
 }
+
+.gallery {}

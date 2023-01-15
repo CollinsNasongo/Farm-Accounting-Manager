@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -38,6 +42,10 @@ nav a{
   padding: 16px 20px;
   font-weight: bolder;
   background-color: #cde9d6;
+}
+
+.active, .btn:hover {
+  border: solid 2px #122981;
 }
 
 .links a{
